@@ -65,3 +65,8 @@ footer {
     background-color: #1abc9c;
     color: white;
 }
+
+body {
+    background-image: url("/images/fnaf_1_start_screen__4k__by_razorsz_davbw8q-pre.jpg");
+    background-size: 25%;
+}
