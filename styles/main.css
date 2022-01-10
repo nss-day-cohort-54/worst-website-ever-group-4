@@ -1,3 +1,26 @@
+head {
+
+}
+title {
+text-align: right;
+}
+body {
+display: flex;
+}
+header {
+
+}
+.bio {
+flex: 2;
+}
+.twitter {
+flex: 3;
+}
+.youtube {
+flex: 1;
+}
+footer {
+
 .main {
     display: flex;
 }
