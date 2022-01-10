@@ -2,25 +2,37 @@ head {
 
 }
 title {
-text-align: right;
 }
 body {
-display: flex;
+
 }
 header {
+    text-align: right;
+    padding: 60px;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    width: 100%;
 
+}
+main {
+    display: flex;
 }
 .bio {
-flex: 2;
+    flex: 1;
 }
 .twitter {
-flex: 3;
+    flex: 2;
 }
 .youtube {
-flex: 1;
+    flex: 1;
 }
 footer {
-
-.main {
-    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
 }
