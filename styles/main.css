@@ -1,11 +1,27 @@
-head {
+.main {
+    display: flex;
+}
+
+.bio {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 
 }
-title {
-}
-body {
 
+.bio_header {
+    font-weight: bold;
+    padding-left: 100px;
 }
+.twitter-timeline {
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 5vw
+}
+
 header {
     text-align: right;
     padding: 60px;
@@ -18,12 +34,11 @@ header {
 main {
     display: flex;
 }
-.bio {
-    flex: 1;
-}
+
 .twitter {
     flex: 2;
 }
+
 .youtube {
     flex: 1;
 }
