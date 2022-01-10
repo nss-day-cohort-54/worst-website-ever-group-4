@@ -27,7 +27,26 @@
             </div>    
         </section>
         <section class="twitter">
-            <h2>TWEETS FROM THE MAK3R</h2>
+            <h2><style>
+                @keyframes grow-and-shrink {
+                  0% {
+                    transform: scale(1);
+                  }
+                  50% {
+                    transform: scale(1.5);
+                  }
+                  100% {
+                    transform: scale(1);
+                  }
+                }
+              
+                .twitter {
+                  animation: grow-and-shrink 4000ms;
+                  animation-iteration-count: infinite;
+                  animation-timing-function: ease-in-out;
+                }
+              </style>
+              TWEETS FROM THE MAK3R</h2>
             <a class="twitter-timeline" href="https://twitter.com/ScottFnafDev?ref_src=twsrc%5Etfw">Tweets by ScottFnafDev</a> 
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </section>
