@@ -4,6 +4,7 @@
 
 .bio {
     border: 1px solid black;
+    background-color: #BDB76B;
     display: flex;
     flex-direction: column;
     width: 50%;
