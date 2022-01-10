@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .main {
     display: flex;
 }
@@ -13,4 +14,46 @@
 .bio_header {
     font-weight: bold;
     padding-left: 100px;
+=======
+.main {
+    display: flex;
+}
+
+.twitter-timeline {
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 5vw
+head {
+
+}
+title {
+text-align: right;
+}
+
+body {
+display: flex;
+}
+
+header {
+
+}
+.bio {
+flex: 2;
+}
+
+.twitter {
+flex: 3;
+}
+
+.youtube {
+flex: 1;
+}
+
+footer {
+}
+.main {
+    display: flex;
+>>>>>>> main
 }
