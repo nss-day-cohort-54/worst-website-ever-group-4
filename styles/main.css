@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .main {
     display: flex;
 }
@@ -14,46 +13,41 @@
 .bio_header {
     font-weight: bold;
     padding-left: 100px;
-=======
-.main {
-    display: flex;
 }
-
 .twitter-timeline {
     flex-wrap: wrap;
 }
 
 h2 {
     font-size: 5vw
-head {
-
-}
-title {
-text-align: right;
-}
-
-body {
-display: flex;
 }
 
 header {
+    text-align: right;
+    padding: 60px;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    width: 100%;
 
 }
-.bio {
-flex: 2;
+main {
+    display: flex;
 }
 
 .twitter {
-flex: 3;
+    flex: 2;
 }
 
 .youtube {
-flex: 1;
+    flex: 1;
 }
-
 footer {
-}
-.main {
-    display: flex;
->>>>>>> main
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
 }
