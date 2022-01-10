@@ -1,3 +1,16 @@
 .main {
     display: flex;
 }
+
+.bio {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.bio_header {
+    font-weight: bold;
+    padding-left: 100px;
+}
