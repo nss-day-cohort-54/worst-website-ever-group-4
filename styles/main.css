@@ -1,9 +1,9 @@
-<<<<<<< HEAD
-.main {
+.mainsection {
     display: flex;
 }
 
 .bio {
+    flex: 1;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -14,9 +14,6 @@
 .bio_header {
     font-weight: bold;
     padding-left: 100px;
-=======
-.main {
-    display: flex;
 }
 
 .twitter-timeline {
@@ -25,35 +22,18 @@
 
 h2 {
     font-size: 5vw
-head {
-
-}
-title {
-text-align: right;
-}
-
-body {
-display: flex;
-}
-
-header {
-
-}
-.bio {
-flex: 2;
-}
-
-.twitter {
-flex: 3;
 }
 
 .youtube {
-flex: 1;
+    flex: 1;
+}
+
+.twitter {
+    flex: 2
 }
 
 footer {
-}
-.main {
     display: flex;
->>>>>>> main
+    flex-direction: row;
+    justify-content: space-evenly;
 }
