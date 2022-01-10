@@ -40,7 +40,13 @@ main {
 }
 
 .youtube {
+    display: flex;
 }
+
+.link_list {
+    background-color: red;
+}
+
 footer {
     display: flex;
     justify-content: space-evenly;
