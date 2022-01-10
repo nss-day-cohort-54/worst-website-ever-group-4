@@ -37,21 +37,17 @@ main {
 }
 
 .twitter {
-    flex: 2;
-    
-
-    
 }
 
 .youtube {
-    flex: 1;
 }
 footer {
+    display: flex;
+    justify-content: space-evenly;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #1abc9c;
     color: white;
-    text-align: center;
 }
