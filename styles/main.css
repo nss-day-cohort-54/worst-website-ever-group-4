@@ -5,6 +5,9 @@
 .twitter-timeline {
     flex-wrap: wrap;
 }
+.title {
+    text-align: right;
+}
 
 h2 {
     font-size: 5vw
