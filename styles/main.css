@@ -383,3 +383,34 @@ body {
       transform: translate(0, 0) rotate(0deg);
     }
   }
+.glamrock_pic {
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 8s;
+}
+
+@-webkit-keyframes run {
+    0% {
+        left: 0;
+        -webkit-transform: rotateY(0deg);
+    }
+
+    50% {
+        left: 82%;
+        -webkit-transform: rotateY(0deg);
+    }
+
+    51% {
+        -webkit-transform:rotateY(180deg);
+    }
+
+    99% {
+        left: 0;
+        -webkit-transform:rotateY(100deg);
+    }
+
+    100% {
+        left: 0;
+        -webkit-transform: rotateY(0deg);
+    }
+}
