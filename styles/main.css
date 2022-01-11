@@ -9,6 +9,8 @@
 .attendant {
     font-style: italic;
     font-size: 40px;
+    animation: slide-in 15s;
+    
 
 }
 

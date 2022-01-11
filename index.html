@@ -19,15 +19,37 @@
         <section class="bio">
             <h2 class="bio_header">Character Bios</h2>
             <div class="attendant">
+                <style>
+                    @keyframes drop-in {
+                        from {
+                            transform:
+                                rotate(-30deg) translateY(-100%);
+                            opacity: 0;
+                        }
+
+                        to {
+                            transform:
+                                rotate(0deg) translateY(0%);
+                            opacity: 1;
+                        }
+                    }
+                    .attendant {
+                        animation: drop-in 15s;
+                        animation-iteration-count: infinite;
+                    }
+                </style>
                 <p>The Daycare Attendant, otherwise known in-game as Sun or Moon, is a Superstar Daycare animatronic
                     that appears in Five Nights at Freddy's: Security Breach.<img class="attandant_pic"
                         src="images/Sunrise.jpg" alt="daycare attendant" />As Sun, the Daycare Attendant is upbeat and
                     energetic, similar to Funtime Freddy.As Moon, the Daycare Attendant is aggressive.</p>
             </div>
             <div class="glamrock">
-                <p>Glamrock Freddy, also known simply as Freddy Fazbear, is Freddy Fazbear's glamrock counterpart who appears in Five Nights at Freddy's: Security Breach as the deuteragonist and ally to the player, Gregory's also the only animatronic in the pizzaplex to not be corrupted by Vanny's power.
+                <p>Glamrock Freddy, also known simply as Freddy Fazbear, is Freddy Fazbear's glamrock counterpart who
+                    appears in Five Nights at Freddy's: Security Breach as the deuteragonist and ally to the player,
+                    Gregory's also the only animatronic in the pizzaplex to not be corrupted by Vanny's power.
                 <div class="glamrock_pic">
-                  <img src="images/GlamFredFigure.png" alt="glamrock freddy">Unlike his counterparts, he actively helps and protects the player from harm.</p>
+                    <img src="images/GlamFredFigure.png" alt="glamrock freddy">Unlike his counterparts, he actively
+                    helps and protects the player from harm.</p>
                 </div>
             </div>
             <div class="william">
@@ -100,7 +122,8 @@
         </section>
     </main>
     <audio controls autoplay>
-        <source src="/music/Five Nights at Freddy's 1 Song - The Living Tombstone.mp3" autostart=1></source>
+        <source src="/music/Five Nights at Freddy's 1 Song - The Living Tombstone.mp3" autostart=1>
+        </source>
     </audio>
 </body>
 <footer>
