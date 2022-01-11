@@ -18,6 +18,13 @@
     font-weight: bold;
     padding-left: 100px;
 }
+.bio_button {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin-left: 250px;
+    font-size: 24px;
+}
 .twitter-timeline {
     flex-wrap: wrap;
 }
